@@ -16,7 +16,10 @@ error_energies2 = data[:,4]
 cv_temperatures, cv, cv_errors = np.zeros(9), np.zeros(9), np.zeros(9)
 
 # Your code to calculate the values of the heat capacity and the errors goes here
-
+for i in range(9) :
+   cv_temperatures[i] = (temperatures[i] + temperatures[i+1]) / 2
+   cv[i] = (energies[i+1]-energies[i]) / (temperatures[i+1]-temperatures[i])
+   cv_errors[i] = ( error_energies[i+1] - error_energies[i] ) / ( temperatures[i+1] - temperatures[i] )
 
 # This will plot a graph of the heat capacity as a function of temperature
 plt.errorbar( cv_temperatures, cv, yerr=cv_errors, fmt='ko' )
