@@ -15,7 +15,7 @@ class UnitTests(unittest.TestCase) :
             self.assertTrue( np.abs(tmid - cv_errors[i])<1E-6, "The error bars for your graph are incorrect" )
             
     def test_yvalues(self) :
-        self.assertTrue( len(cv)==9, "cv has the wrong length )
+        self.assertTrue( len(cv)==9, "cv has the wrong length" )
         filedata = np.loadtxt("md_results.txt")
         for i in range(len(cv) ) :
             tmid = ( filedata[i+1,1] - filedata[i,1] ) / ( filedata[i+1,0] - filedata[i,0] )
