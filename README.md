@@ -20,7 +20,7 @@ The difference between these two values gives the range of possible values that 
 
 This range is symmetric around the value for the heat capacity that is computed using the first formula above, however, so we can thus write our final value for the width of the error bar on the heat capacity as:
 
-![](https://render.githubusercontent.com/render/math?math=\Delta\C_v\left(\frac{T_1%2BT_2}{2}\right)=\frac{\Delta\E_2-\Delta\E_1}{T_2-T_1})
+![](https://render.githubusercontent.com/render/math?math=\Delta\C_v\left(\frac{T_1%2BT_2}{2}\right)=\frac{\Delta\E_2%2B\Delta\E_1}{T_2-T_1})
 
 To complete this exercise you must, therefore, recompute the heat capacities from the data in the input as you did in the previous exercise.  This time, however, you need to also compute the error bars for the heat capacities that you obtain.  Just in case you have forgotten from the last exercise we import the following lists from `md_data.txt` at the start of the calculation:
 
