@@ -12,7 +12,7 @@ We can calculate these errors by noting that the maximum possible value we could
 
 where ![](https://render.githubusercontent.com/render/math?math=\Delta\E_2) and ![](https://render.githubusercontent.com/render/math?math=\Delta\E_1) are the errors for the ensemble averages computed for ![](https://render.githubusercontent.com/render/math?math=T_2) and ![](https://render.githubusercontent.com/render/math?math=T_1) respectively.  This expression is derived by considering the steepest possible gradient that still passes through the two error bars.  Using similar logic, we can consider the shallowest possible gradient that passes through the two error bars and obtain the minimum possible value for the heat capacity as follows:
 
-![](https://render.githubusercontent.com/render/math?math=C_v^\textrm{min}\left(\frac{T_1%2BT_2}{2}\right)=\frac{(\langle\E\rangle(T_2)-\Delta\E_2)-(\langle\E\rangle(T_1)+\Delta\E_1)}{T_2-T_1})
+![](https://render.githubusercontent.com/render/math?math=C_v^\textrm{min}\left(\frac{T_1%2BT_2}{2}\right)=\frac{(\langle\E\rangle(T_2)-\Delta\E_2)-(\langle\E\rangle(T_1)%2B\Delta\E_1)}{T_2-T_1})
 
 The difference between these two values gives the range of possible values that the heat capacity might take and is equal to:
 
