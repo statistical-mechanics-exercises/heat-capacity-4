@@ -16,7 +16,7 @@ where ![](https://render.githubusercontent.com/render/math?math=\Delta\E_2) and 
 
 The difference between these two values gives the range of possible values that the heat capacity might take and is equal to:
 
-![](https://render.githubusercontent.com/render/math?math=C_v^\textrm{max}\left(\frac{T_1%2BT_2}{2}\right)-C_v^\textrm{min}\left(\frac{T_1%2BT_2}{2}\right)=2\frac{\Delta\E_2-\Delta\E_1}{T_2-T_1})
+![](https://render.githubusercontent.com/render/math?math=C_v^\textrm{max}\left(\frac{T_1%2BT_2}{2}\right)-C_v^\textrm{min}\left(\frac{T_1%2BT_2}{2}\right)=2\frac{\Delta\E_2%2B\Delta\E_1}{T_2-T_1})
 
 This range is symmetric around the value for the heat capacity that is computed using the first formula above, however, so we can thus write our final value for the width of the error bar on the heat capacity as:
 
